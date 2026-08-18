@@ -326,7 +326,7 @@
 <header class="site">
   <div class="site-inner">
     <p class="eyebrow">Ôn tập · Luyện tập · Kiểm tra</p>
-    <h1 class="title hanzi">跟清银老师一起学中文 Học Tiếng Trung Cùng Cô Ngân
+    <h1 class="title hanzi">Học Tiếng Trung Cùng Cô Ngân 跟清银老师一起学中文 
       <span class="vi">Ôn tập để tiến bộ mỗi ngày</span>
     </h1>
   </div>
@@ -344,7 +344,7 @@
 </main>
 
 <footer>
-  Giáo viên: Nguyễn Thanh Ngân.<br>
+  Giáo viên: Nguyễn Thanh Ngân<br>
   Chia sẻ - Truyền động lực - Cùng tiến bộ.
 </footer>
 
@@ -366,7 +366,7 @@ const GROUP_SIZE = 3;
 
 const LESSONS = [
   {
-    id:1, hanzi:"你好", vi:"Xin chào",
+     id:1, hanzi:"你好", vi:"Xin chào",
     vocab:[
       {cn:"你", py:"nǐ", vi:"Anh, chị, ông, bà..."},
       {cn:"你好", py:"nǐ hǎo", vi:"Xin chào"},
@@ -393,36 +393,21 @@ const LESSONS = [
         {vi:"Xin chào!", cn:"你好！"},
         {vi:"Cảm ơn bạn.", cn:"谢谢你。"},
       ],
+      cnToVi:[
+        {cn:"再见！", vi:"Tạm biệt!"},
+        {cn:"老师好。", vi:"Chào thầy/cô."},
+      ],
     },
     speaking:{
-  title:"Luyện đọc",
-  lines:[
-    {
-      s:"1",
-      cn:"中国很大。",
-      py:"Zhōngguó hěn dà",
-      vi:"Trung Quốc rất rộng."
+      title:"Chào hỏi ở lớp học",
+      lines:[
+        {s:"A", cn:"你好！", vi:"Xin chào!"},
+        {s:"B", cn:"你好！你是老师吗？", vi:"Xin chào! Bạn là giáo viên phải không?"},
+        {s:"A", cn:"是，我是老师。你好吗？", vi:"Đúng vậy, tôi là giáo viên. Bạn khỏe không?"},
+        {s:"B", cn:"我很好，谢谢！", vi:"Tôi khỏe, cảm ơn!"},
+      ],
     },
-    {
-      s:"2",
-      cn:"妈妈喜欢画画。",
-      py:"Māmā xǐhuān huà huà",
-      vi:"Mẹ thích vẽ tranh."
-    }
-    {
-      s:"3",
-      cn:"你还好吗？",
-      py:"Nǐ hái hǎo ma",
-      vi:"Bạn vẫn ổn chứ?"
-    }
-    {
-      s:"4",
-      cn:"那位老师个子很高。",
-      py:"Nà wèi lǎoshī gèzǐ hěn gāo",
-      vi:"Giáo viên đó dáng người rất cao."
-    }
-  ]
-}
+  },
   {
     id:2, hanzi:"我是学生", vi:"Tôi là học sinh",
     vocab:[
