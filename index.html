@@ -326,8 +326,8 @@
 <header class="site">
   <div class="site-inner">
     <p class="eyebrow">Ôn tập · Luyện tập · Kiểm tra</p>
-    <h1 class="title hanzi">学中文
-      <span class="vi">Nền tảng ôn luyện tiếng Trung — Từ vựng · Ngữ pháp · Viết · Nói</span>
+    <h1 class="title hanzi">跟清银老师一起学中文 Học Tiếng Trung Cùng Cô Ngân
+      <span class="vi">Ôn tập để tiến bộ mỗi ngày</span>
     </h1>
   </div>
 </header>
@@ -344,8 +344,8 @@
 </main>
 
 <footer>
-  Bản demo template — dữ liệu chỉ lưu tạm trong phiên làm việc này.<br>
-  Xem ghi chú kỹ thuật trong mã nguồn để biết cách thêm bài học và kết nối lưu trữ lâu dài.
+  Giáo viên: Nguyễn Thanh Ngân.<br>
+  Chia sẻ - Truyền động lực - Cùng tiến bộ.
 </footer>
 
 <script>
@@ -366,13 +366,13 @@ const GROUP_SIZE = 3;
 
 const LESSONS = [
   {
-    id:1, hanzi:"你好", vi:"Chào hỏi cơ bản",
+    id:1, hanzi:"你好", vi:"Xin chào",
     vocab:[
+      {cn:"你", py:"nǐ", vi:"Anh, chị, ông, bà..."},
       {cn:"你好", py:"nǐ hǎo", vi:"Xin chào"},
-      {cn:"谢谢", py:"xiè xie", vi:"Cảm ơn"},
-      {cn:"再见", py:"zài jiàn", vi:"Tạm biệt"},
-      {cn:"老师", py:"lǎo shī", vi:"Giáo viên"},
-      {cn:"学生", py:"xué shēng", vi:"Học sinh"},
+      {cn:"您", py:"nín", vi:"Ông, bà, cô, chú ... -cách xưng hô kính trọng-"},
+      {cn:"你们", py:"nǐmen", vi:"các ông, các bà, các bạn..."},
+      {cn:"王", py:"wáng", vi:"Họ Vương"},
     ],
     grammar:{
       order:[
@@ -393,19 +393,17 @@ const LESSONS = [
         {vi:"Xin chào!", cn:"你好！"},
         {vi:"Cảm ơn bạn.", cn:"谢谢你。"},
       ],
-      cnToVi:[
-        {cn:"再见！", vi:"Tạm biệt!"},
-        {cn:"老师好。", vi:"Chào thầy/cô."},
-      ],
     },
     speaking:{
       title:"Chào hỏi ở lớp học",
       lines:[
-        {s:"A", cn:"你好！", vi:"Xin chào!"},
-        {s:"B", cn:"你好！你是老师吗？", vi:"Xin chào! Bạn là giáo viên phải không?"},
-        {s:"A", cn:"是，我是老师。你好吗？", vi:"Đúng vậy, tôi là giáo viên. Bạn khỏe không?"},
-        {s:"B", cn:"我很好，谢谢！", vi:"Tôi khỏe, cảm ơn!"},
+        {s:"A", cn:"王老师！你好！", vi:"Xin chào thầy/cô Vương!"},
+        {s:"B", cn:"你好！", vi:"Chào em!"},
       ],
+      title:"Luyện đọc",
+      lines:[
+        {s:"1", "hěn hǎo", s:"2", "gǔgē", s:"3", "yīfu", s:"4", "míyǔ", s:"5", "sānsī"},
+        {s:"1", "Zhōngguó hěn dà", s:"2", "Māmā xǐhuān huà huà", s:"3", "Nǐ hái hǎo ma", s:"4", "Nà wèi lǎoshī gèzǐ hěn gāo", s:"5", "sānsī"},
     },
   },
   {
